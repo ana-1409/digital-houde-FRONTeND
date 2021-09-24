@@ -1,4 +1,4 @@
-# digital-houde-FRONTeND
+# digital-houSe-FRONTeND
 # digitalfront-end
 NerdPower 🖖🏾 
 <br>
