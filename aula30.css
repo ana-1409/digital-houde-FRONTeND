@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  /*list-style: none;*/
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #999;
+  font-family: 'Oswald', sans-serif;
+  /* background-image: linear-gradient(to right, red, blue); */
+
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  text-align: center;
+}
+
+header nav {
+  padding-top: 4vh;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 2vh 5vw;
+  text-transform: uppercase;
+}
+
+/* header nav ul li:nth-child(1+n){
+  padding-left: 5vw;
+} */
+
+.box {
+  padding-top: 10vh;
+  border: solid 1px salmon;
+  width: 80vw;
+  height: 70vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.minha-cidade {
+  padding: 30px;
+  background-image: url("../img/oz_cit.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.video {
+  /* width: 1780px; */ 
+  height: 100%;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+#by ol {
+  list-style-type: lower-roman;
+}
+
+#by ol li {
+  color: red;
+  
+}
+
+aside {
+  position: fixed;
+  width: 75px;
+  height: 200px;
+  background-color: seagreen;
+  right: 0.2vw;
+  bottom: 35vh;
+}
+
+aside a img {
+  width: 100%;
+}
+
+aside a:nth-child(2) {
+  padding-bottom: 30px;
+  
+}
